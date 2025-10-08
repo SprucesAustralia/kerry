@@ -31,10 +31,15 @@
     <div class="max-w-5xl mx-auto p-4 sm:p-8">
 
         <!-- Header -->
-        <header class="text-center mb-12">
-            <h1 class="text-4xl md:text-5xl font-bold brand-text mb-2">Spruces Commercial Cleaning</h1>
-            <p class="text-xl md:text-2xl text-slate-600">A Custom Cleaning Proposal for Kerry</p>
-            <p class="text-lg text-slate-500 mt-2">Prepared by: Leo</p>
+        <header class="flex flex-col sm:flex-row items-center justify-between mb-12 gap-6">
+            <!-- Logo Placeholder -->
+            <div class="w-40 h-16 bg-slate-200 rounded-lg flex items-center justify-center text-slate-500 flex-shrink-0">
+                <span class="text-sm font-semibold">[Your Company Logo]</span>
+            </div>
+            <div class="text-center sm:text-right">
+                <h1 class="text-3xl md:text-4xl font-bold brand-text mb-1">Custom Cleaning Proposal</h1>
+                <p class="text-lg md:text-xl text-slate-600">Prepared for Kerry by Spruces Cleaning</p>
+            </div>
         </header>
 
         <!-- Introduction -->
@@ -70,6 +75,19 @@
             </div>
         </section>
 
+        <!-- Our Guarantee -->
+        <section class="mb-12 bg-white p-8 rounded-2xl shadow-lg border border-slate-200 text-center">
+            <div class="inline-block p-3 bg-teal-100 rounded-full mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 brand-text" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+            </div>
+            <h2 class="text-3xl font-bold mb-4">Our Spotless Guarantee</h2>
+            <p class="text-lg text-slate-600 leading-relaxed max-w-3xl mx-auto">
+                Your complete satisfaction is our top priority. We stand by the quality of our work. If you ever find something that wasn't cleaned to your standards, simply <strong>send us a picture, and we will return to clean it again for no extra fee.</strong> It's that simple.
+            </p>
+        </section>
+
 
         <!-- Pricing & Service Options -->
         <section class="mb-12">
@@ -94,8 +112,12 @@
                              <p class="text-slate-500 text-sm mb-1">Our best value for all 3 offices.</p>
                             <p class="text-3xl font-bold">$119 <span class="text-base font-normal text-slate-500">+ GST per office</span></p>
                         </div>
+                        <div class="mt-4 pt-4 border-t border-slate-200">
+                             <p class="font-bold text-slate-700">Support Included:</p>
+                             <p class="text-slate-600 text-base">Email support with a 24-hour response time.</p>
+                         </div>
                     </div>
-                    <a href="#" class="mt-8 text-center w-full bg-slate-200 text-slate-800 font-bold py-3 px-6 rounded-lg text-lg hover:bg-slate-300 transition-colors">Select Standard Care</a>
+                    <a href="mailto:hi@spruces.co?subject=Proposal%20Accepted%20(Standard%20Care)&body=Hello%20Leo%2C%0D%0A%0D%0AI'd%20like%20to%20accept%20the%20Standard%20Care%20proposal%20for%20the%20three%20offices.%0D%0A%0D%0APlease%20let%20me%20know%20the%20next%20steps.%0D%0A%0D%0AThanks%2C%0D%0AKerry" class="mt-8 text-center w-full bg-slate-200 text-slate-800 font-bold py-3 px-6 rounded-lg text-lg hover:bg-slate-300 transition-colors">Select Standard Care</a>
                 </div>
 
                 <!-- Premium Care Option -->
@@ -107,14 +129,15 @@
                     <div class="flex-grow space-y-4 text-lg">
                        <p class="font-bold">Includes everything in Standard Care, plus:</p>
                         <ul class="list-disc list-inside space-y-2 text-slate-600">
-                           <li><strong>Bimonthly Window Cleaning:</strong> As requested, we'll clean your exterior windows with signage every other month.</li>
-                           <li><strong>Quarterly Deep Clean:</strong> We'll allocate extra time every two months for detailed tasks like high dusting and skirting boards.</li>
+                           <li><strong>Bimonthly Window Cleaning:</strong> As requested, we'll clean your exterior windows with signage.</li>
+                           <li><strong>Bimonthly Deep Clean:</strong> We'll allocate extra time for detailed tasks like high dusting and skirting boards.</li>
+                           <li><strong>24/7 Priority Support:</strong> Direct access via SMS & WhatsApp for immediate assistance.</li>
                         </ul>
                         <p class="text-center text-2xl font-bold pt-4">
                            + $15 <span class="text-base font-normal text-slate-500">per visit, per office</span>
                         </p>
                     </div>
-                    <a href="#" class="mt-8 text-center w-full brand-bg text-white font-bold py-3 px-6 rounded-lg text-lg hover:opacity-90 transition-opacity">Upgrade to Premium</a>
+                    <a href="mailto:hi@spruces.co?subject=Proposal%20Accepted%20(Premium%20Care)&body=Hello%20Leo%2C%0D%0A%0D%0AI'd%20like%20to%20accept%20the%20Premium%20Care%20proposal%20for%20the%20three%20offices.%0D%0A%0D%0APlease%20let%20me%20know%20the%20next%20steps.%0D%0A%0D%0AThanks%2C%0D%0AKerry" class="mt-8 text-center w-full brand-bg text-white font-bold py-3 px-6 rounded-lg text-lg hover:opacity-90 transition-opacity">Upgrade to Premium</a>
                 </div>
             </div>
         </section>
@@ -236,17 +259,20 @@
             <h2 class="text-3xl font-bold mb-4">Ready to Get Started?</h2>
             <p class="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">We're confident we can provide the reliable, high-quality service you're looking for. Please let me know if you have any questions at all.</p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="#" class="brand-bg text-white font-bold py-4 px-8 rounded-lg text-xl hover:opacity-90 transition-opacity">Accept This Proposal</a>
-                <a href="#" class="bg-slate-200 text-slate-800 font-bold py-4 px-8 rounded-lg text-xl hover:bg-slate-300 transition-colors">Ask a Question</a>
+                <a href="mailto:hi@spruces.co?subject=Proposal%20Accepted%20for%203%20Offices&body=Hello%20Leo%2C%0D%0A%0D%0AI%20would%20like%20to%20formally%20accept%20the%20cleaning%20proposal%20for%20the%20three%20offices%20(Southport%2C%20Helensvale%2C%20and%20Nerang).%0D%0A%0D%0APlease%20let%20me%20know%20the%20next%20steps%20to%20get%20everything%20started.%0D%0A%0D%0ABest%20regards%2C%0D%0AKerry" class="brand-bg text-white font-bold py-4 px-8 rounded-lg text-xl hover:opacity-90 transition-opacity">Accept This Proposal</a>
+                <a href="mailto:hi@spruces.co?subject=Question%20Regarding%20Cleaning%20Proposal&body=Hello%20Leo%2C%0D%0A%0D%0AI%20have%20a%20question%20about%20the%20cleaning%20proposal%20you%20sent%20over.%0D%0A%0D%0A%5BPlease%20type%20your%20question%20here%5D%0D%0A%0D%0AThanks%2C%0D%0AKerry" class="bg-slate-200 text-slate-800 font-bold py-4 px-8 rounded-lg text-xl hover:bg-slate-300 transition-colors">Ask a Question</a>
             </div>
         </section>
 
         <!-- Footer -->
-        <footer class="text-center mt-12 text-slate-500">
-            <p>&copy; 2025 Spruces Commercial Cleaning. All Rights Reserved.</p>
+        <footer class="text-center mt-12 pt-8 border-t border-slate-200 text-slate-500">
+            <p class="font-bold text-lg text-slate-800">Leo Plaza | Customer Support</p>
+            <p class="mt-2 text-lg"><a href="tel:0489937600" class="hover:brand-text">0489937600</a> &nbsp;&bull;&nbsp; <a href="mailto:hi@spruces.co" class="hover:brand-text">hi@spruces.co</a> &nbsp;&bull;&nbsp; <a href="http://www.spruces.co" target="_blank" class="hover:brand-text">www.spruces.co</a></p>
+            <p class="mt-4 text-sm">&copy; 2025 Spruces Commercial Cleaning. All Rights Reserved.</p>
         </footer>
 
     </div>
 
 </body>
 </html>
+
